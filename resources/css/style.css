@@ -1,0 +1,17 @@
+html {
+  font-size: 18px;
+}
+
+* {
+  background-color: black;
+  color: white;
+  font-family: helvetica;
+}
+
+header {
+  display: flex;
+}
+
+header img {
+  height: 1.5rem;
+}
