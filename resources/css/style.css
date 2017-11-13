@@ -1,17 +1,38 @@
 html {
   font-size: 18px;
-}
-
-* {
-  background-color: black;
   color: white;
   font-family: helvetica;
 }
 
-header {
+.header {
   display: flex;
+  background-color: black;
 }
 
-header img {
+.header .container {
+  display: flex;
+  align-items: center;
+  padding: .66rem 0px .66rem 0;
+}
+
+.header img {
   height: 1.5rem;
+  padding: 0 1rem 0 .5rem;
+}
+
+.banner {
+  background-image: url("images/moto.jpeg");
+  height: 25rem;
+}
+
+nav {
+  display: block;
+  background-color: firebrick;
+}
+
+nav ul {
+  background-color: firebrick;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  list-style: none;
 }
