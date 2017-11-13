@@ -4,6 +4,11 @@ html {
   font-family: helvetica;
 }
 
+.container {
+  width: 960px;
+  margin: auto;
+}
+
 .header {
   display: flex;
   background-color: black;
@@ -25,14 +30,63 @@ html {
   height: 25rem;
 }
 
-nav {
-  display: block;
-  background-color: firebrick;
+.container .new {
+  background-color: black;
+  width: 20rem;
+  position: relative;
+  padding-top: 9rem;
 }
 
-nav ul {
+.new h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: .25rem;
+  padding-left: 3rem;
+}
+
+.new h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 3rem;
+}
+
+nav {
   background-color: firebrick;
   padding-top: .75rem;
   padding-bottom: .75rem;
+}
+
+nav li {
+  display: flex;
+  background-color: firebrick;
   list-style: none;
+  justify-content: space-between;
+}
+
+.products {
+  display: flex;
+}
+
+.pen {
+  height: 9rem;
+}
+
+.pen span {
+  background-color: black;
+}
+
+.watch span{
+  background-color: black;
+}
+
+.glasses span{
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+  height: 5rem;
+  align-items: center;
+  text-align: left;
 }
