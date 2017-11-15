@@ -89,7 +89,15 @@ nav li {
 }
 
 .pen {
+<<<<<<< HEAD
   max-width: 30%;
+=======
+<<<<<<< HEAD
+  max-width: 30%;
+=======
+  width: 30%;
+>>>>>>> 34ce0e0cbadc82c3fe47c378d7b8525641ab44e8
+>>>>>>> 54e13f4789d9dffe67618095e3b9b39dc33a11af
 }
 
 .pen img {
@@ -103,6 +111,7 @@ nav li {
 
 .pen span {
   background-color: black;
+<<<<<<< HEAD
   padding: .5rem 0;
   display: block;
   text-align: center;
@@ -110,6 +119,23 @@ nav li {
 
 .watch {
   max-width: 30%;
+=======
+<<<<<<< HEAD
+  padding: .5rem 0;
+  display: block;
+  text-align: center;
+}
+
+.watch {
+  max-width: 30%;
+=======
+  width: 30%;
+}
+
+.watch {
+  width: 30%;
+>>>>>>> 34ce0e0cbadc82c3fe47c378d7b8525641ab44e8
+>>>>>>> 54e13f4789d9dffe67618095e3b9b39dc33a11af
 }
 
 .watch img {
@@ -126,6 +152,26 @@ nav li {
   padding: .5rem 0;
   display: block;
   text-align: center;
+<<<<<<< HEAD
+=======
+}
+
+.glasses {
+  max-width: 30%;
+}
+
+.glasses img {
+  display: block;
+  height: 9rem;
+  padding: 2rem;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
+}
+
+.glasses-image img {
+  max-width: 30%;
+>>>>>>> 54e13f4789d9dffe67618095e3b9b39dc33a11af
 }
 
 .glasses {
@@ -150,8 +196,49 @@ nav li {
   padding: .5rem 0;
   display: block;
   text-align: center;
+<<<<<<< HEAD
+=======
 }
 
+/* Location & Hours */
+
+.container .information {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  display: inline-block;
+  width: 35%;
+}
+
+.location h1 {
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.location span {
+  color: black;
+  display: block;
+}
+
+.hours {
+  display: inline-block;
+  width: 35%;
+}
+
+.hours h1 {
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
+>>>>>>> 54e13f4789d9dffe67618095e3b9b39dc33a11af
+}
+
+<<<<<<< HEAD
+.hours span {
+  color: black;
+  display: block;
+=======
 /* Location & Hours */
 
 .container .information {
@@ -187,7 +274,11 @@ nav li {
 
 .hours span {
   color: black;
+<<<<<<< HEAD
   display: block;
+=======
+>>>>>>> 34ce0e0cbadc82c3fe47c378d7b8525641ab44e8
+>>>>>>> 54e13f4789d9dffe67618095e3b9b39dc33a11af
 }
 
 /* Footer */
