@@ -89,7 +89,11 @@ nav li {
 }
 
 .pen {
+<<<<<<< HEAD
   max-width: 30%;
+=======
+  width: 30%;
+>>>>>>> 34ce0e0cbadc82c3fe47c378d7b8525641ab44e8
 }
 
 .pen img {
@@ -103,6 +107,7 @@ nav li {
 
 .pen span {
   background-color: black;
+<<<<<<< HEAD
   padding: .5rem 0;
   display: block;
   text-align: center;
@@ -110,6 +115,13 @@ nav li {
 
 .watch {
   max-width: 30%;
+=======
+  width: 30%;
+}
+
+.watch {
+  width: 30%;
+>>>>>>> 34ce0e0cbadc82c3fe47c378d7b8525641ab44e8
 }
 
 .watch img {
@@ -143,6 +155,19 @@ nav li {
 
 .glasses-image img {
   max-width: 30%;
+}
+
+.glasses {
+  width: 30%;
+}
+
+.glasses img {
+  display: block;
+  height: 9rem;
+  padding: 2rem;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
 }
 
 .glasses span{
@@ -185,9 +210,28 @@ nav li {
   padding: 1rem 0 1rem 2rem;
 }
 
+<<<<<<< HEAD
 .hours span {
   color: black;
   display: block;
+=======
+/* Location & Hours */
+
+.location h1 {
+  background-color: black;
+}
+
+.location p {
+  color: black;
+}
+
+.hours h1 {
+  background-color: black;
+}
+
+.hours p {
+  color: black;
+>>>>>>> 34ce0e0cbadc82c3fe47c378d7b8525641ab44e8
 }
 
 /* Footer */
