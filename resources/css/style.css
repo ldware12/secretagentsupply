@@ -6,7 +6,7 @@ html {
 
 .container {
   width: 960px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* Header Section */
@@ -89,7 +89,7 @@ nav li {
 }
 
 .pen {
-  width: 30%;
+  max-width: 30%;
 }
 
 .pen img {
@@ -103,11 +103,13 @@ nav li {
 
 .pen span {
   background-color: black;
-  width: 30%;
+  padding: .5rem 0;
+  display: block;
+  text-align: center;
 }
 
 .watch {
-  width: 30%;
+  max-width: 30%;
 }
 
 .watch img {
@@ -121,10 +123,13 @@ nav li {
 
 .watch span{
   background-color: black;
+  padding: .5rem 0;
+  display: block;
+  text-align: center;
 }
 
 .glasses {
-  width: 30%;
+  max-width: 30%;
 }
 
 .glasses img {
@@ -136,26 +141,53 @@ nav li {
   border-color: black;
 }
 
+.glasses-image img {
+  max-width: 30%;
+}
+
 .glasses span{
   background-color: black;
+  padding: .5rem 0;
+  display: block;
+  text-align: center;
 }
 
 /* Location & Hours */
 
-.location h1 {
-  background-color: black;
+.container .information {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.location p {
+.location {
+  display: inline-block;
+  width: 35%;
+}
+
+.location h1 {
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.location span {
   color: black;
+  display: block;
+}
+
+.hours {
+  display: inline-block;
+  width: 35%;
 }
 
 .hours h1 {
   background-color: black;
+  padding: 1rem 0 1rem 2rem;
 }
 
-.hours p {
+.hours span {
   color: black;
+  display: block;
 }
 
 /* Footer */
@@ -166,4 +198,5 @@ footer {
   height: 5rem;
   align-items: center;
   text-align: left;
+  margin-top: 4rem;
 }
