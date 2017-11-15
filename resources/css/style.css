@@ -6,8 +6,10 @@ html {
 
 .container {
   width: 960px;
-  margin: auto;
+  margin: 0 auto;
 }
+
+/* Header Section */
 
 .header {
   display: flex;
@@ -25,68 +27,176 @@ html {
   padding: 0 1rem 0 .5rem;
 }
 
+
+/* Main Banner Section */
+
 .banner {
-  background-image: url("images/moto.jpeg");
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
   height: 25rem;
+}
+
+.banner .container {
+  padding-top: 9rem;
 }
 
 .container .new {
   background-color: black;
   width: 20rem;
   position: relative;
-  padding-top: 9rem;
+  padding: 2rem 3rem;
 }
 
 .new h4 {
   font-size: 1rem;
   font-weight: bold;
-  padding-top: 2rem;
-  padding-bottom: .25rem;
-  padding-left: 3rem;
+
 }
 
 .new h1 {
   font-size: 2rem;
   font-weight: bold;
-  padding-left: 3rem;
+  padding-top: 4.5px;
 }
 
+
+/* Navigation Bar */
+
 nav {
+  display: flex;
   background-color: firebrick;
   padding-top: .75rem;
   padding-bottom: .75rem;
 }
 
-nav li {
+nav ul {
   display: flex;
-  background-color: firebrick;
-  list-style: none;
   justify-content: space-between;
 }
 
+nav li {
+  background-color: firebrick;
+  list-style: none;
+
+}
+
+/* Products Section */
+
 .products {
   display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
 }
 
 .pen {
+  max-width: 30%;
+}
+
+.pen img {
+  display: flex;
   height: 9rem;
+  padding: 2rem;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
 }
 
 .pen span {
   background-color: black;
+  padding: .5rem 0;
+  display: block;
+  text-align: center;
+}
+
+.watch {
+  max-width: 30%;
+}
+
+.watch img {
+  display: block;
+  height: 9rem;
+  padding: 2rem;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
 }
 
 .watch span{
   background-color: black;
+  padding: .5rem 0;
+  display: block;
+  text-align: center;
+}
+
+.glasses {
+  max-width: 30%;
+}
+
+.glasses img {
+  display: block;
+  height: 9rem;
+  padding: 2rem;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
+}
+
+.glasses-image img {
+  max-width: 30%;
 }
 
 .glasses span{
   background-color: black;
+  padding: .5rem 0;
+  display: block;
+  text-align: center;
 }
 
+/* Location & Hours */
+
+.container .information {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  display: inline-block;
+  width: 35%;
+}
+
+.location h1 {
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.location span {
+  color: black;
+  display: block;
+}
+
+.hours {
+  display: inline-block;
+  width: 35%;
+}
+
+.hours h1 {
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.hours span {
+  color: black;
+  display: block;
+}
+
+/* Footer */
+
 footer {
+  display: flex;
   background-color: black;
   height: 5rem;
   align-items: center;
   text-align: left;
+  margin-top: 4rem;
 }
